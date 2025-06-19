@@ -1,4 +1,4 @@
-import Link from "next/link"
+'use client';import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 export default function Project3() {

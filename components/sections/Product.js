@@ -1,5 +1,5 @@
 
-
+'use client';
 
 import Isotope from "isotope-layout";
 import Link from 'next/link';

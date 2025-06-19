@@ -1,4 +1,4 @@
-import Isotope from "isotope-layout"
+'use client';import Isotope from "isotope-layout"
 import Link from 'next/link'
 import { useEffect, useRef } from "react"
 export default function ShopGrid() {

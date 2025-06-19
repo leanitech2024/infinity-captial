@@ -1,11 +1,14 @@
+'use client';
+import dynamic from 'next/dynamic';
+import Layout from '@/components/layout/Layout';
+
 const BlogMetroGrid = dynamic(
   () => import('@/components/elements/BlogMetroGrid'),
   {
     ssr: false,
+    loading: () => <p>Loading...</p>,
   }
 );
-import Layout from '@/components/layout/Layout';
-import dynamic from 'next/dynamic';
 
 export default function BlogMetro() {
   return (

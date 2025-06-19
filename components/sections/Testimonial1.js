@@ -1,3 +1,4 @@
+'use client';
 import { Autoplay, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 export default function Testimonial1() {

@@ -4,7 +4,6 @@ import FloatingMenu from '@/components/layout/FloatingMenu';
 import Footer1 from '@/components/layout/footer/Footer1';
 import Header1 from '@/components/layout/header/Header1';
 import About1 from '@/components/sections/About1';
-import Blog1 from '@/components/sections/Blog1';
 import Expertise from '@/components/sections/Expertise';
 import HeroSlider1 from '@/components/sections/HeroSlider1';
 import Newsteller1 from '@/components/sections/Newsteller1';
@@ -16,7 +15,6 @@ import Testimonial1 from '@/components/sections/Testimonial1';
 import { useState } from 'react';
 
 export default function Home1() {
-  // Floating
   const [isFloating, setFloating] = useState(false);
   const handleFloating = () => setFloating(!isFloating);
 

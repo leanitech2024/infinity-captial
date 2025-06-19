@@ -1,4 +1,4 @@
-import dynamic from 'next/dynamic'
+'use client';import dynamic from 'next/dynamic'
 
 const CounterUp = dynamic(() => import('../elements/CounterUp'), {
     ssr: false,

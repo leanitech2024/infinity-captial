@@ -1,86 +1,108 @@
-
+'use client';
 export default function Client5() {
-    return (
-        <>
-            <section className="client-section bg_dark_1">
-                {/*===============spacing==============*/}
-                <div className="pd_top_50" />
-                {/*===============spacing==============*/}
-                <div className="container">
-                    <div className="row">
-                        <div className="client_logo_carousel type_three">
-                            <div className="swiper-container" data-swiper="{
-                     &quot;autoplay&quot;: {
-                       &quot;delay&quot;: 6000
+  return (
+    <>
+      <section className="client-section bg_dark_1">
+        {/*===============spacing==============*/}
+        <div className="pd_top_50" />
+        {/*===============spacing==============*/}
+        <div className="container">
+          <div className="row">
+            <div className="client_logo_carousel type_three">
+              <div
+                className="swiper-container"
+                data-swiper='{
+                     "autoplay": {
+                       "delay": 6000
                      },
-                     &quot;freeMode&quot;: true,
-                     &quot;loop&quot;: true,
-                     &quot;speed&quot;: 1000,
-                     &quot;centeredSlides&quot;: false,
-                     &quot;slidesPerView&quot;: 5,
-                     &quot;spaceBetween&quot;: 30,
-                     &quot;pagination&quot;: {
-                       &quot;el&quot;: &quot;.swiper-pagination&quot;,
-                       &quot;clickable&quot;: true
+                     "freeMode": true,
+                     "loop": true,
+                     "speed": 1000,
+                     "centeredSlides": false,
+                     "slidesPerView": 5,
+                     "spaceBetween": 30,
+                     "pagination": {
+                       "el": ".swiper-pagination",
+                       "clickable": true
                      },
                       
-                     &quot;breakpoints&quot;: {
-                        &quot;1200&quot;: {
-                           &quot;slidesPerView&quot;: 5
+                     "breakpoints": {
+                        "1200": {
+                           "slidesPerView": 5
                         },
-                        &quot;1024&quot;: {
-                         &quot;slidesPerView&quot;: 4
+                        "1024": {
+                         "slidesPerView": 4
                         },
-                       &quot;768&quot;: {
-                         &quot;slidesPerView&quot;: 3
+                       "768": {
+                         "slidesPerView": 3
                        },
-                       &quot;576&quot;: {
-                         &quot;slidesPerView&quot;: 2
+                       "576": {
+                         "slidesPerView": 2
                        },
-                       &quot;250&quot;: {
-                        &quot;slidesPerView&quot;: 2
+                       "250": {
+                        "slidesPerView": 2
                       },
-                       &quot;0&quot;: {
-                         &quot;slidesPerView&quot;: 1 
+                       "0": {
+                         "slidesPerView": 1 
                        }
                      }
-                   }">
-                                <div className="swiper-wrapper">
-                                    <div className="swiper-slide">
-                                        <div className="image text-center">
-                                            <img src="/assets/images/CLIENT-logo-w.png" alt="clients-logo" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="image text-center">
-                                            <img src="/assets/images/CLIENT-logo-3-w.png" alt="clients-logo" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="image text-center">
-                                            <img src="/assets/images/CLIENT-logo-2-w.png" alt="clients-logo" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="image text-center">
-                                            <img src="/assets/images/CLIENT-logo-1-w.png" alt="clients-logo" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <div className="image text-center">
-                                            <img src="/assets/images/CLIENT-logo-3-w.png" alt="clients-logo" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                   }'
+              >
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <div className="image text-center">
+                      <img
+                        src="/assets/images/CLIENT-logo-w.png"
+                        alt="clients-logo"
+                        className="img-fluid"
+                      />
                     </div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="image text-center">
+                      <img
+                        src="/assets/images/CLIENT-logo-3-w.png"
+                        alt="clients-logo"
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="image text-center">
+                      <img
+                        src="/assets/images/CLIENT-logo-2-w.png"
+                        alt="clients-logo"
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="image text-center">
+                      <img
+                        src="/assets/images/CLIENT-logo-1-w.png"
+                        alt="clients-logo"
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="image text-center">
+                      <img
+                        src="/assets/images/CLIENT-logo-3-w.png"
+                        alt="clients-logo"
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
                 </div>
-                {/*===============spacing==============*/}
-                <div className="pd_bottom_50" />
-                {/*===============spacing==============*/}
-            </section>
-
-        </>
-    )
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*===============spacing==============*/}
+        <div className="pd_bottom_50" />
+        {/*===============spacing==============*/}
+      </section>
+    </>
+  );
 }
