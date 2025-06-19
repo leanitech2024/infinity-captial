@@ -1,6 +1,7 @@
 'use client';
 
 import FloatingMenu from '@/components/layout/FloatingMenu';
+import Footer1 from '@/components/layout/footer/Footer1';
 import Header1 from '@/components/layout/header/Header1';
 import About1 from '@/components/sections/About1';
 import Blog1 from '@/components/sections/Blog1';
@@ -30,9 +31,10 @@ export default function Home1() {
       <Team1 />
       <Project1 />
       <Testimonial1 />
-      <Blog1 />
+
       <Newsteller1 />
       <FloatingMenu handleFloating={handleFloating} isFloating={isFloating} />
+      <Footer1 />
     </>
   );
 }

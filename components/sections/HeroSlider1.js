@@ -54,28 +54,42 @@ export default function HeroSlider1() {
                     <div className="slider_content pd_top_180 pd_bottom_200">
                       <h6 className="animate_up d-inline-block">
                         {slide === 1
-                          ? 'Our Vision to Grow Better'
+                          ? 'Strategic Investments'
                           : slide === 2
-                          ? 'Hire the Best'
-                          : 'Our Vision to Grow Better'}
+                          ? 'Innovative Growth'
+                          : 'Trusted Partnerships'}
                       </h6>
                       <h1 className="animate_left">
-                        {slide === 1
-                          ? 'Inspired <br /> Performance'
-                          : slide === 2
-                          ? 'Hire Better, <br /> Faster!'
-                          : 'Countless <br /> Happy Clients'}
+                        {slide === 1 ? (
+                          <>
+                            Empowering
+                            <br />
+                            Businesses
+                          </>
+                        ) : slide === 2 ? (
+                          <>
+                            Fueling
+                            <br />
+                            Startups
+                          </>
+                        ) : (
+                          <>
+                            Building
+                            <br />
+                            Wealth
+                          </>
+                        )}
                       </h1>
                       <p className="description animate_right">
                         {slide === 1
-                          ? 'Duty obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.'
+                          ? 'We provide growth capital and strategic support to businesses, helping them scale and achieve long-term success.'
                           : slide === 2
-                          ? 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled.'
-                          : 'These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled.'}
+                          ? 'Partnering with visionary entrepreneurs to transform ideas into market-leading companies with sustainable impact.'
+                          : 'Delivering tailored investment solutions to help clients build and preserve wealth across generations.'}
                       </p>
                       <div className="button_all animate_down">
                         <Link href="#" className="theme-btn one animated">
-                          Read More
+                          Learn More
                         </Link>
                       </div>
                     </div>
