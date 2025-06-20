@@ -68,7 +68,7 @@ export default function AboutUs() {
   return (
     <>
       <Head>
-        <title>Creote - About Us</title>
+        <title>Infinity Captial - About Us</title>
       </Head>
 
       <Layout breadcrumbTitle="About Us">
@@ -83,8 +83,8 @@ export default function AboutUs() {
                 <div className="about_content position-relative z_99">
                   <div className="title_all_box style_one text-left  dark_color">
                     <div className="title_sections">
-                      <div className="before_title">We are</div>
-                      <h2>Leaders in HR Solution</h2>
+                      <div className="before_title">About Us</div>
+                      <h2>Pioneers in Strategic Investments</h2>
                     </div>
                   </div>
                   {/*===============spacing==============*/}
@@ -95,7 +95,7 @@ export default function AboutUs() {
                       <img src="/assets/images/cuntry-1.png" alt="img" />
                       <h2>
                         {' '}
-                        Since 1998, <br /> Operating in Birmingham.
+                        Since 2010, <br /> Empowering Growth Globally.
                       </h2>
                     </div>
                   </div>
@@ -104,11 +104,12 @@ export default function AboutUs() {
                   {/*===============spacing==============*/}
                   <div className="description_box">
                     <p>
-                      The great explorer of the truth, the master-builder of
-                      human happiness no one rejects dislikes avoids pleasure
-                      itself because it is pleasure but because know who do not
-                      those how to pursue pleasures rationally encounter
-                      consequences that are extremely painful desires to obtain.{' '}
+                      At Infinity Capital, we unlock value through disciplined
+                      investing and innovative financial solutions. Our team
+                      combines deep market expertise with a passion for
+                      identifying transformative opportunities, ensuring
+                      sustainable returns for our clients and partners in an
+                      ever-evolving economic landscape.
                     </p>
                   </div>
                   {/*===============spacing==============*/}
@@ -128,7 +129,7 @@ export default function AboutUs() {
                           <div className="txt_content">
                             <h3>
                               <Link href="#">
-                                Tailored Advice &amp; Support
+                                Data-Driven Investment Strategies
                               </Link>
                             </h3>
                           </div>
@@ -150,7 +151,9 @@ export default function AboutUs() {
                           </div>
                           <div className="txt_content">
                             <h3>
-                              <Link href="#">Flexible Company Policies</Link>
+                              <Link href="#">
+                                Global Portfolio Diversification
+                              </Link>
                             </h3>
                           </div>
                         </div>
@@ -162,7 +165,7 @@ export default function AboutUs() {
                   </div>
                   <div className="theme_btn_all color_one">
                     <Link href="#" className="theme-btn five">
-                      Contact us
+                      Partner with us
                       <i className="icon-right-arrow" />
                     </Link>
                   </div>
@@ -194,8 +197,8 @@ export default function AboutUs() {
                   </div>
                   <div className="authour_quotes">
                     <i className="icon-quote" />
-                    <h6>Making What’s Possible in Human Resource</h6>
-                    <p>/ Liam Oliver</p>
+                    <h6>Building Wealth Through Visionary Capital</h6>
+                    <p>/ Sarah Chen, CEO</p>
                   </div>
                 </div>
               </div>
@@ -216,8 +219,8 @@ export default function AboutUs() {
               <div className="col-lg-12">
                 <div className="title_all_box style_one text-center dark_color">
                   <div className="title_sections">
-                    <div className="before_title">Our Business</div>
-                    <h2 className="title">Stand Out From The Rest</h2>
+                    <div className="before_title">Our Expertise</div>
+                    <h2 className="title">Redefining Investment Excellence</h2>
                   </div>
                   {/*===============spacing==============*/}
                   <div className="pd_bottom_20" />
@@ -231,7 +234,7 @@ export default function AboutUs() {
                   <img
                     src="/assets/images/icon-img-ab-1.jpg"
                     className="simp_img cover-parallax"
-                    alt="image"
+                    alt="Investment strategy meeting"
                   />
                 </div>
                 {/*===============spacing==============*/}
@@ -240,15 +243,17 @@ export default function AboutUs() {
                 <div className="icon_box_all style_three">
                   <div className="icon_content ">
                     <div className="icon">
-                      <span className=" icon-bow-and-arrow" />
+                      <span className="icon-bow-and-arrow" />
                     </div>
                     <div className="txt_content">
                       <h3>
                         <Link href="#">Our Mission</Link>
                       </h3>
                       <p>
-                        Equal blame belongs to those who fail in their duty
-                        through weakness of will which the same as saying.
+                        To empower wealth creation through disciplined
+                        investing, leveraging global opportunities while
+                        maintaining rigorous risk management frameworks for
+                        sustainable growth.
                       </p>
                     </div>
                   </div>
@@ -258,26 +263,26 @@ export default function AboutUs() {
                 <div className="icon_box_all style_three">
                   <div className="icon_content ">
                     <div className="icon">
-                      <span className=" icon-growth" />
+                      <span className="icon-growth" />
                     </div>
                     <div className="txt_content">
                       <h3>
-                        <Link href="#">Our Core Values</Link>
+                        <Link href="#">Our Principles</Link>
                       </h3>
                       <p>
-                        Equal blame belongs to those who fail in their duty
-                        through weakness of will which the same as saying.
+                        We build trust through transparency and performance,
+                        guided by:
                       </p>
                       <ul>
-                        <li>Integrity</li>
-                        <li>Commitment to excellence</li>
-                        <li>Consumer focus</li>
-                        <li>Accountability</li>
-                        <li>Inclusiveness</li>
+                        <li>Strategic Foresight</li>
+                        <li>Data-Driven Decisions</li>
+                        <li>Portfolio Resilience</li>
+                        <li>Stakeholder Alignment</li>
+                        <li>Innovation at Scale</li>
                       </ul>
                       <div className="btn_left">
                         <Link href="#" className="theme-btn one">
-                          Read More
+                          Explore Funds
                         </Link>
                       </div>
                     </div>
@@ -288,15 +293,17 @@ export default function AboutUs() {
                 <div className="icon_box_all style_three">
                   <div className="icon_content ">
                     <div className="icon">
-                      <span className=" icon-binoculars" />
+                      <span className="icon-binoculars" />
                     </div>
                     <div className="txt_content">
                       <h3>
                         <Link href="#">Our Vision</Link>
                       </h3>
                       <p>
-                        Equal blame belongs to those who fail in their duty
-                        through weakness of will which the same as saying.
+                        To be the catalyst for transformative capital
+                        deployment, bridging emerging markets with
+                        institutional-grade investment frameworks across asset
+                        classes.
                       </p>
                     </div>
                   </div>
@@ -304,11 +311,11 @@ export default function AboutUs() {
                 {/*===============spacing==============*/}
                 <div className="pd_bottom_20" />
                 {/*===============spacing==============*/}
-                <div className="simple_image_boxes  height_264px">
+                <div className="simple_image_boxes height_264px">
                   <img
                     src="/assets/images/icon-img-ab-2.jpg"
                     className="simp_img img-fluid"
-                    alt="image"
+                    alt="Global market analysis"
                   />
                 </div>
               </div>
@@ -319,377 +326,7 @@ export default function AboutUs() {
           {/*===============spacing==============*/}
         </section>
         {/*-service end-*/}
-        {/*-timeline--*/}
-        <section className="timeline-section">
-          {/*===============spacing==============*/}
-          <div className="pd_top_90" />
-          {/*===============spacing==============*/}
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="title_all_box style_one text-center dark_color">
-                <div className="title_sections">
-                  <div className="before_title">Evaluation of</div>
-                  <h2 className="title">Our Company &amp; Partners</h2>
-                </div>
-                {/*===============spacing==============*/}
-                <div className="pd_bottom_20" />
-                {/*===============spacing==============*/}
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12 pd_zero">
-              <div className="time_line_section style_one">
-                <div className="swiper-container">
-                  <div className="swiper-button-next">
-                    <div className="border_one sme" />
-                  </div>
-                  <div className="swiper-button-prev">
-                    <div className="border_two sme" />
-                  </div>
-                  <Swiper {...swiperOptions} className="swiper-wrapper">
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">Company Started</Link>
-                            </h2>
-                            <p>
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">1998</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-3-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">New Milestone</Link>
-                            </h2>
-                            <p>
-                              No one rejects dislikes or avoids pleasures itself
-                              because it is pleasures, but because those who
-                              pursue pleasure rationally.
-                            </p>
-                          </div>
-                          <div className="year">2000</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-5-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">First Award </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Undertakes laborious physical exercise except to
-                              obtain some advantage from it pursue pleasure
-                              rationally.
-                            </p>
-                          </div>
-                          <div className="year">2001</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/service/service-image-4.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">100 Employees </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">2004</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/blog/blog-image-8.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">Company Started </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">1998</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-3-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">New Milestone </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              No one rejects dislikes or avoids pleasures itself
-                              because it is pleasures, but because those who
-                              pursue pleasure rationally.
-                            </p>
-                          </div>
-                          <div className="year">2000</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-5-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">Company Started</Link>
-                            </h2>
-                            <p>
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">1998</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-3-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">New Milestone</Link>
-                            </h2>
-                            <p>
-                              No one rejects dislikes or avoids pleasures itself
-                              because it is pleasures, but because those who
-                              pursue pleasure rationally.
-                            </p>
-                          </div>
-                          <div className="year">2000</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-5-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">First Award </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Undertakes laborious physical exercise except to
-                              obtain some advantage from it pursue pleasure
-                              rationally.
-                            </p>
-                          </div>
-                          <div className="year">2001</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/service/service-image-4.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">100 Employees </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">2004</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/blog/blog-image-8.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">Company Started </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              Expound the actual teachings of the great explorer
-                              the truth the masters builder of human happiness
-                              one rejects.
-                            </p>
-                          </div>
-                          <div className="year">1998</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-3-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="time_line_box">
-                        <div className="time_inner">
-                          <div className="border_liner">
-                            <span />
-                            <span className="last" />
-                          </div>
-                          <div className="content">
-                            <h2>
-                              <Link href="#">New Milestone </Link>
-                            </h2>
-                            <p>
-                              {' '}
-                              No one rejects dislikes or avoids pleasures itself
-                              because it is pleasures, but because those who
-                              pursue pleasure rationally.
-                            </p>
-                          </div>
-                          <div className="year">2000</div>
-                          <div className="image">
-                            <img
-                              src="/assets/images/projects/project-5-img.jpg"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*===============spacing==============*/}
-          <div className="pd_top_90" />
-          {/*===============spacing==============*/}
-        </section>
-        {/*-timeline--*/}
+
         {/*-tab--*/}
         <section
           className="tab-section bg_op_1"
@@ -700,10 +337,10 @@ export default function AboutUs() {
           {/*===============spacing==============*/}
           <div className="container">
             <div className="row">
-              <div className="tabs_all_box  tabs_all_box_start type_one">
+              <div className="tabs_all_box tabs_all_box_start type_one">
                 <div className="tab_over_all_box">
                   <div className="tabs_header clearfix">
-                    <ul className="showcase_tabs_btns nav-pills nav   clearfix">
+                    <ul className="showcase_tabs_btns nav-pills nav clearfix">
                       <li className="nav-item">
                         <a
                           className={
@@ -713,7 +350,7 @@ export default function AboutUs() {
                           }
                           onClick={() => handleOnClick(1)}
                         >
-                          01. Affordable
+                          01. Strategic Capital
                         </a>
                       </li>
                       <li className="nav-item">
@@ -725,7 +362,7 @@ export default function AboutUs() {
                           }
                           onClick={() => handleOnClick(2)}
                         >
-                          02. Knowledge
+                          02. Market Insight
                         </a>
                       </li>
                       <li className="nav-item">
@@ -737,7 +374,7 @@ export default function AboutUs() {
                           }
                           onClick={() => handleOnClick(3)}
                         >
-                          03. Saves Time
+                          03. Efficient Execution
                         </a>
                       </li>
                       <li className="nav-item">
@@ -749,7 +386,7 @@ export default function AboutUs() {
                           }
                           onClick={() => handleOnClick(4)}
                         >
-                          04. Fast &amp; Quality
+                          04. Smart Solutions
                         </a>
                       </li>
                       <li className="nav-item">
@@ -761,7 +398,7 @@ export default function AboutUs() {
                           }
                           onClick={() => handleOnClick(5)}
                         >
-                          05. Experienced
+                          05. Proven Expertise
                         </a>
                       </li>
                     </ul>
@@ -769,7 +406,7 @@ export default function AboutUs() {
                       <Link href="tel:180667586677">
                         {' '}
                         <i className="icon-phone-call" />
-                        Call For Free Consultation
+                        Schedule Investor Consultation
                       </Link>
                     </div>
                   </div>
@@ -790,16 +427,19 @@ export default function AboutUs() {
                           }}
                         >
                           <div className="content_image">
-                            <h6>Why Creote</h6>
-                            <h2>Affordable &amp; Flexible</h2>
+                            <h6>Why Choose Infinity Capital</h6>
+                            <h2>Strategic Capital Allocation</h2>
                             <p>
-                              Must explain too you how all this mistaken idea of
-                              denouncing pleasures praising pain was born and we
-                              will give you complete account of the system the
-                              actual teachings of the great explorer.
+                              Our disciplined approach to capital deployment
+                              identifies high-growth sectors while maintaining
+                              optimal risk-reward balance. We combine
+                              fundamental analysis with macroeconomic trends to
+                              uncover undervalued opportunities across emerging
+                              markets.
                             </p>
                             <Link href="#" className="rd_more">
-                              Read More <i className="icon-right-arrow" />
+                              Explore Strategies{' '}
+                              <i className="icon-right-arrow" />
                             </Link>
                           </div>
                         </div>
@@ -819,17 +459,18 @@ export default function AboutUs() {
                           }}
                         >
                           <div className="content_image">
-                            <h6>Why Creote</h6>
-                            <h2>Affordable &amp; Flexible</h2>
+                            <h6>Why Choose Infinity Capital</h6>
+                            <h2>Deep Market Insight</h2>
                             <p>
-                              Must explain too you how all this mistaken idea of
-                              denouncing pleasures praising pain was born and we
-                              will give you complete account of the system the
-                              actual teachings of the great explorer.
+                              Leveraging proprietary research and global
+                              intelligence networks, we provide investors with
+                              actionable market intelligence. Our team's
+                              360-degree perspective helps navigate volatility
+                              and capitalize on disruptive trends before they
+                              mainstream.
                             </p>
                             <Link href="#" className="rd_more">
-                              Read More
-                              <i className="icon-right-arrow" />
+                              View Research <i className="icon-right-arrow" />
                             </Link>
                           </div>
                         </div>
@@ -849,16 +490,17 @@ export default function AboutUs() {
                           }}
                         >
                           <div className="content_image">
-                            <h6>Why Creote</h6>
-                            <h2>Affordable &amp; Flexible</h2>
+                            <h6>Why Choose Infinity Capital</h6>
+                            <h2>Efficient Execution</h2>
                             <p>
-                              Must explain too you how all this mistaken idea of
-                              denouncing pleasures praising pain was born and we
-                              will give you complete account of the system the
-                              actual teachings of the great explorer.
+                              Our streamlined investment process reduces
+                              time-to-market without compromising due diligence.
+                              From opportunity identification to closing, we
+                              maintain rigorous standards while moving at the
+                              speed the market demands.
                             </p>
                             <Link href="#" className="rd_more">
-                              Read More <i className="icon-right-arrow" />
+                              Our Process <i className="icon-right-arrow" />
                             </Link>
                           </div>
                         </div>
@@ -878,16 +520,17 @@ export default function AboutUs() {
                           }}
                         >
                           <div className="content_image">
-                            <h6>Why Creote</h6>
-                            <h2>Affordable &amp; Flexible</h2>
+                            <h6>Why Choose Infinity Capital</h6>
+                            <h2>Smart Investment Solutions</h2>
                             <p>
-                              Must explain too you how all this mistaken idea of
-                              denouncing pleasures praising pain was born and we
-                              will give you complete account of the system the
-                              actual teachings of the great explorer.
+                              We engineer customized financial instruments that
+                              balance short-term liquidity needs with long-term
+                              growth objectives. Our solutions adapt to changing
+                              market conditions while protecting capital during
+                              downturns.
                             </p>
                             <Link href="#" className="rd_more">
-                              Read More <i className="icon-right-arrow" />
+                              View Products <i className="icon-right-arrow" />
                             </Link>
                           </div>
                         </div>
@@ -907,16 +550,17 @@ export default function AboutUs() {
                           }}
                         >
                           <div className="content_image">
-                            <h6>Why Creote</h6>
-                            <h2>Affordable &amp; Flexible</h2>
+                            <h6>Why Choose Infinity Capital</h6>
+                            <h2>Proven Investment Expertise</h2>
                             <p>
-                              Must explain too you how all this mistaken idea of
-                              denouncing pleasures praising pain was born and we
-                              will give you complete account of the system the
-                              actual teachings of the great explorer.
+                              With 10+ years navigating market cycles, our team
+                              has delivered consistent alpha across asset
+                              classes. We bring institutional-grade discipline
+                              to private investors, combining Wall Street rigor
+                              with entrepreneurial agility.
                             </p>
                             <Link href="#" className="rd_more">
-                              Read More <i className="icon-right-arrow" />
+                              Meet Our Team <i className="icon-right-arrow" />
                             </Link>
                           </div>
                         </div>

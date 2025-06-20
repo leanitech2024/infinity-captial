@@ -35,39 +35,39 @@ export default function Project1() {
   const caseStudies = [
     {
       img: '/assets/images/projects/project-6-img.jpg',
-      category: 'Private Equity',
-      title: 'Manufacturing Sector Turnaround',
-      desc: 'Transformed underperforming industrial manufacturer into market leader',
+      category: 'Technology & Software',
+      title: 'AI-Driven Fintech Platform',
+      desc: '$45M Series B investment in cutting-edge AI technology revolutionizing financial services',
     },
     {
       img: '/assets/images/projects/project-5-img.jpg',
-      category: 'Venture Capital',
-      title: 'FinTech Startup Growth',
-      desc: 'Scaled payment solutions startup to unicorn status in 3 years',
+      category: 'Healthcare',
+      title: 'Next-Gen Biotech Research',
+      desc: '$60M Series C funding for breakthrough cancer treatment solutions',
     },
     {
       img: '/assets/images/projects/project-4-img.jpg',
-      category: 'Healthcare',
-      title: 'Pharmaceutical Expansion',
-      desc: 'Strategic investment in specialty drug manufacturer',
+      title: 'Digital Banking Platform',
+      category: 'Financial Services',
+      desc: '$80M Series D in revolutionary digital wealth management solutions',
     },
     {
       img: '/assets/images/projects/project-3-img.jpg',
-      category: 'Technology',
-      title: 'SaaS Platform Exit',
-      desc: 'Successful exit of enterprise software company to strategic buyer',
+      category: 'Manufacturing',
+      title: 'Smart Automation Systems',
+      desc: '$35M Series A for Industry 4.0 manufacturing solutions',
     },
     {
       img: '/assets/images/projects/project-6-img.jpg',
-      category: 'Consumer',
-      title: 'Retail Chain Expansion',
-      desc: 'Regional to national expansion with operational improvements',
+      category: 'Energy',
+      title: 'Renewable Infrastructure',
+      desc: '$120M investment in large-scale solar and wind energy projects',
     },
     {
       img: '/assets/images/projects/project-5-img.jpg',
-      category: 'Renewable Energy',
-      title: 'Solar Infrastructure Fund',
-      desc: 'Developed 500MW renewable energy portfolio',
+      category: 'Real Estate',
+      title: 'Commercial Development',
+      desc: '$200M strategic development of premium commercial spaces',
     },
   ];
 
@@ -79,8 +79,12 @@ export default function Project1() {
           <div className="row">
             <div className="title_all_box style_one text-center dark_color">
               <div className="title_sections">
-                <div className="before_title">Success</div>
-                <h2>Investment Case Studies</h2>
+                <div className="before_title">Investment Portfolio</div>
+                <h2>Infinity Capital Case Studies</h2>
+                <p className="mt-3">
+                  Strategic investments driving innovation and growth across
+                  sectors
+                </p>
               </div>
               <div className="mr_bottom_10" />
             </div>
@@ -101,6 +105,9 @@ export default function Project1() {
                               className="img-fluid"
                               alt={study.title}
                             />
+                            <div className="investment-badge">
+                              {study.desc.split('$')[1].split(' ')[0]}
+                            </div>
                           </div>
                           <div className="project_caro_content">
                             <div className="left_side">
@@ -110,6 +117,9 @@ export default function Project1() {
                                   {study.title}
                                 </Link>
                               </h2>
+                              <p className="description">
+                                {study.desc.split('$')[0]}
+                              </p>
                             </div>
                             <div className="right_side">
                               <Link href="/project-details">

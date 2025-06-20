@@ -1,28 +1,9 @@
 'use client';
 import Link from 'next/link';
-import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 export default function MobileMenu({ handleMobileMenu }) {
-  const [isActive, setIsActive] = useState({
-    status: false,
-    key: '',
-  });
-
   const pathname = usePathname();
-
-  const handleToggle = (key) => {
-    if (isActive.key === key) {
-      setIsActive({
-        status: false,
-      });
-    } else {
-      setIsActive({
-        status: true,
-        key,
-      });
-    }
-  };
 
   return (
     <>
@@ -57,43 +38,16 @@ export default function MobileMenu({ handleMobileMenu }) {
                 </Link>
               </li>
 
-              <li className="menu-item menu-item-has-children dropdown nav-item">
+              <li className="menu-item nav-item">
                 <Link
                   href="/service-default"
-                  className="dropdown-toggle nav-link"
+                  className={`nav-link ${
+                    pathname === '/service-default' ? 'active' : ''
+                  }`}
+                  onClick={handleMobileMenu}
                 >
                   <span>Services</span>
                 </Link>
-                <ul
-                  className="dropdown-menu"
-                  style={{ display: `${isActive.key == 1 ? 'block' : 'none'}` }}
-                >
-                  <li className="menu-item nav-item">
-                    <Link
-                      href="/service-default"
-                      className={`dropdown-item nav-link ${
-                        pathname === '/service-default' ? 'active' : ''
-                      }`}
-                      onClick={handleMobileMenu}
-                    >
-                      <span>Our Services</span>
-                    </Link>
-                  </li>
-                  <li className="menu-item nav-item">
-                    <Link
-                      href="/service-details"
-                      className={`dropdown-item nav-link ${
-                        pathname === '/service-details' ? 'active' : ''
-                      }`}
-                      onClick={handleMobileMenu}
-                    >
-                      <span>Service Details</span>
-                    </Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn" onClick={() => handleToggle(1)}>
-                  <span className="fa fa-angle-down" />
-                </div>
               </li>
 
               <li className="menu-item nav-item">

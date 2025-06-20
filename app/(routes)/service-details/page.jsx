@@ -38,12 +38,12 @@ export default function ServiceDetails() {
                   <article className="clearfix service type-service status-publish has-post-thumbnail hentry">
                     <div className="title_all_box style_one dark_color">
                       <div className="title_sections left">
-                        <div className="before_title">HR Employee</div>
-                        <div className="title">Recruitment Process</div>
+                        <div className="before_title">Financial Services</div>
+                        <div className="title">Investment Management</div>
                         <p>
-                          Our power of choice is untrammelled and when nothing
-                          prevents being able to do what we like best every
-                          pleasure.
+                          Our comprehensive investment management approach
+                          ensures optimal returns through strategic asset
+                          allocation and disciplined portfolio management.
                         </p>
                       </div>
                     </div>
@@ -51,11 +51,12 @@ export default function ServiceDetails() {
                       <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5 mb-lg-5 mb-xl-0 ps-0 ps-lg-0 pe-0 pe-lg-0 pe-xl-3">
                         <div className="description_box">
                           <p>
-                            Our power of choice is untrammelled and when nothing
-                            prevents our being able to do what we like best,
-                            every pleasure is to be welcomed and every pain
-                            avoided. But in certain circumstances and owing to
-                            the claims of duty.
+                            At Infinity Capital, we provide personalized
+                            investment management services designed to meet your
+                            unique financial goals. Our experienced team
+                            combines market expertise with cutting-edge
+                            technology to deliver superior investment outcomes
+                            and wealth preservation.
                           </p>
                         </div>
                         {/*===============spacing==============*/}
@@ -72,11 +73,12 @@ export default function ServiceDetails() {
                             </div>
                             <div className="txt_content">
                               <h3>
-                                <Link href="#">Background Checks</Link>
+                                <Link href="#">Due Diligence Analysis</Link>
                               </h3>
                               <p>
-                                These cases are perfectly simple and easy to
-                                distinguish. In a free hour when our power.
+                                Comprehensive research and analysis of
+                                investment opportunities to ensure informed
+                                decision-making and risk mitigation.
                               </p>
                             </div>
                           </div>
@@ -104,11 +106,12 @@ export default function ServiceDetails() {
                             </div>
                             <div className="txt_content">
                               <h3>
-                                <Link href="#">Profile Assessments</Link>
+                                <Link href="#">Portfolio Optimization</Link>
                               </h3>
                               <p>
-                                Indignation and men who are so beguiled and
-                                demoralized by the charms blinded.
+                                Strategic asset allocation and portfolio
+                                balancing to maximize returns while managing
+                                risk exposure effectively.
                               </p>
                             </div>
                           </div>
@@ -127,11 +130,12 @@ export default function ServiceDetails() {
                             </div>
                             <div className="txt_content">
                               <h3>
-                                <Link href="#">Position Description</Link>
+                                <Link href="#">Performance Monitoring</Link>
                               </h3>
                               <p>
-                                Trouble that are bound to ensue and equal blame
-                                belongs those who fail in their duty.
+                                Continuous tracking and analysis of investment
+                                performance with regular reporting and strategic
+                                adjustments.
                               </p>
                             </div>
                           </div>
@@ -139,15 +143,16 @@ export default function ServiceDetails() {
                         {/*===============spacing==============*/}
                         <div className="pd_bottom_25" />
                         {/*===============spacing==============*/}
-                        <h3>HR Functions</h3>
+                        <h3>Investment Strategies</h3>
                         {/*===============spacing==============*/}
                         <div className="pd_bottom_15" />
                         {/*===============spacing==============*/}
                         <div className="description_box">
                           <p>
-                            Nothing prevents our being able to do what we like
-                            best every pleasure is to be welcomed &amp; every
-                            pain avoided certain circumstances.
+                            Our investment philosophy focuses on long-term value
+                            creation through diversified portfolios and
+                            disciplined risk management. We ensure every
+                            investment aligns with your financial objectives.
                           </p>
                         </div>
                         {/*===============spacing==============*/}
@@ -156,33 +161,36 @@ export default function ServiceDetails() {
                         <div className="content_box_cn style_one">
                           <div className="txt_content">
                             <h3>
-                              <Link href="#">Open Communication</Link>
+                              <Link href="#">Growth Investing</Link>
                             </h3>
                             <p>
-                              Equal blame belongs to those who fail in their
-                              duty through weakness same duty.
+                              Focus on companies with strong growth potential
+                              and sustainable competitive advantages for
+                              long-term appreciation.
                             </p>
                           </div>
                         </div>
                         <div className="content_box_cn  style_one">
                           <div className="txt_content">
                             <h3>
-                              <Link href="#">Sharing a Vision</Link>
+                              <Link href="#">Value Investing</Link>
                             </h3>
                             <p>
-                              Business it will frequently occur that pleasures
-                              have to be repudiated.
+                              Identifying undervalued securities with strong
+                              fundamentals to capitalize on market
+                              inefficiencies.
                             </p>
                           </div>
                         </div>
                         <div className="content_box_cn  style_one">
                           <div className="txt_content">
                             <h3>
-                              <Link href="#">Recognizing Employee</Link>
+                              <Link href="#">Diversification Strategy</Link>
                             </h3>
                             <p>
-                              Holds in these matter to this principle selection
-                              he rejects pleasures to secure.
+                              Strategic allocation across asset classes,
+                              sectors, and geographies to optimize risk-adjusted
+                              returns.
                             </p>
                           </div>
                         </div>
@@ -207,7 +215,7 @@ export default function ServiceDetails() {
                               }
                               onClick={() => handleToggle(1)}
                             >
-                              Who is Qetus?
+                              What is Infinity Capital's investment approach?
                               <span className="icon-play" />
                             </dt>
                             <dd
@@ -219,10 +227,12 @@ export default function ServiceDetails() {
                               }}
                             >
                               <p>
-                                Nor again is there anyone who loves or pursues
-                                or desires to obtain pain itself because it is
-                                pains but because occasionally circumstances
-                                occurs great pleasure take a trivial of us.
+                                Infinity Capital employs a disciplined,
+                                research-driven investment approach that focuses
+                                on long-term value creation. We combine
+                                fundamental analysis with quantitative models to
+                                identify opportunities and manage risk
+                                effectively across diverse market conditions.
                               </p>
                             </dd>
                             <dt
@@ -233,7 +243,7 @@ export default function ServiceDetails() {
                               }
                               onClick={() => handleToggle(2)}
                             >
-                              What recruitment services do you offer?
+                              What investment services do you offer?
                               <span className="icon-play" />
                             </dt>
                             <dd
@@ -245,11 +255,12 @@ export default function ServiceDetails() {
                               }}
                             >
                               <p>
-                                Serenity Is Multi-Faceted Blockchain Based
-                                Ecosystem, Energy Retailer For The People,
-                                Focusing On The Promotion Of Sustainable Living,
-                                Renewable Energy Production And Smart Energy
-                                Grid Utility Services.
+                                We offer comprehensive investment management,
+                                portfolio advisory, wealth management, financial
+                                planning, risk assessment, and market research
+                                services. Our solutions are tailored to meet the
+                                unique needs of institutional and individual
+                                investors.
                               </p>
                             </dd>
                             <dt
@@ -260,7 +271,7 @@ export default function ServiceDetails() {
                               }
                               onClick={() => handleToggle(3)}
                             >
-                              How can I register a job?
+                              How can I start investing with Infinity Capital?
                               <span className="icon-play" />
                             </dt>
                             <dd
@@ -272,11 +283,12 @@ export default function ServiceDetails() {
                               }}
                             >
                               <p>
-                                Serenity Is Multi-Faceted Blockchain Based
-                                Ecosystem, Energy Retailer For The People,
-                                Focusing On The Promotion Of Sustainable Living,
-                                Renewable Energy Production And Smart Energy
-                                Grid Utility Services.
+                                Getting started is simple. Contact our team for
+                                an initial consultation where we'll assess your
+                                financial goals, risk tolerance, and investment
+                                timeline. We'll then create a customized
+                                investment strategy tailored to your specific
+                                requirements.
                               </p>
                             </dd>
                           </dl>
@@ -302,19 +314,22 @@ export default function ServiceDetails() {
                       <h4 className="widget-title">Our Services</h4>
                       <ul className="service_list_box">
                         <li>
-                          <Link href="#">Talent Management</Link>{' '}
+                          <Link href="#">Investment Management</Link>{' '}
                         </li>
                         <li>
-                          <Link href="#">Health Care Benefits</Link>{' '}
+                          <Link href="#">Portfolio Advisory</Link>{' '}
                         </li>
                         <li>
-                          <Link href="#">Risk Management</Link>{' '}
+                          <Link href="#">Risk Assessment</Link>{' '}
                         </li>
                         <li>
-                          <Link href="#">Compliance Audits</Link>{' '}
+                          <Link href="#">Wealth Management</Link>{' '}
                         </li>
                         <li>
-                          <Link href="#">Employee Relations</Link>{' '}
+                          <Link href="#">Financial Planning</Link>{' '}
+                        </li>
+                        <li>
+                          <Link href="#">Market Research</Link>{' '}
                         </li>
                       </ul>
                     </div>
@@ -322,7 +337,7 @@ export default function ServiceDetails() {
                   <div className="widgets_grid_box">
                     <div className="brouchure_box_widget">
                       <div className="widget_content">
-                        <h3>A Complete Guide to Employee Engagement</h3>
+                        <h3>Complete Guide to Investment Strategies</h3>
                         <div className="color_white_1 clearfix">
                           <Link
                             href="#"
@@ -350,20 +365,20 @@ export default function ServiceDetails() {
                             alt="backgroundimage"
                           />
                           <div className="top_section">
-                            <h3>Have Questions?</h3>
-                            <p>Nothing prevents our being to what we like. </p>
+                            <h3>Need Investment Advice?</h3>
+                            <p>Expert guidance for your financial growth. </p>
                           </div>
                           <div className="bottom_section">
                             <Link href="#" className="phone_number">
-                              +98 060 712 34
+                              +91 98765 43210
                             </Link>
                             <Link href="#" className="mailid">
-                              sendmail@qetus.com
+                              invest@infinitycapital.com
                             </Link>
                           </div>
                         </div>
                         <Link href="#" className="theme-btn one">
-                          Appointment
+                          Consultation
                         </Link>
                       </div>
                     </div>
@@ -384,9 +399,10 @@ export default function ServiceDetails() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="content">
-                    <h2>Join Our Mailing List</h2>
+                    <h2>Join Our Investment Newsletter</h2>
                     <p>
-                      For receiving our news and updates in your inbox directly.{' '}
+                      For receiving market updates and investment insights
+                      directly in your inbox.{' '}
                     </p>
                   </div>
                 </div>
@@ -405,7 +421,7 @@ export default function ServiceDetails() {
                             placeholder="Your email address"
                             required
                           />
-                          <input type="submit" defaultValue="Sign up" />
+                          <input type="submit" defaultValue="Subscribe" />
                         </div>
                       </form>
                     </div>

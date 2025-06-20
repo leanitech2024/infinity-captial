@@ -27,8 +27,8 @@ export default function Header1({
                       <i className="icon-email" />
                       <div className="text">
                         <small>Email</small>
-                        <Link href="mailto:sendmail@creote.com">
-                          sendmail@creote.com
+                        <Link href="mailto:sendmail@infinitycaptial.com">
+                          sendmail@infinitycaptial.com
                         </Link>
                       </div>
                     </div>

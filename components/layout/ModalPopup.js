@@ -101,7 +101,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                 <div className="abt_content">
                   <div className="logo">
                     <img
-                      src="/assets/images/logo-default.png"
+                      src="/assets/images/logo-default.jpg"
                       alt="img"
                       className="company_logo_modal"
                     />
@@ -115,13 +115,12 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                       those how to pursue pleasures rationally encounter
                       consequences that are extremely painful desires to obtain.
                     </p>
-                    <Link href="#">Read More</Link>
                   </div>
                   <div className="post_contet_modal">
-                    <h2> Latest News</h2>
+                    <h2> Our Gallery</h2>
                     <div className="post_enable">
                       <div className="modal_post_grid">
-                        <Link href="/blog-single">
+                        <Link href="#">
                           <img
                             width={852}
                             height={812}
@@ -132,7 +131,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                         </Link>
                       </div>
                       <div className="modal_post_grid">
-                        <Link href="/blog-single">
+                        <Link href="#">
                           <img
                             width={852}
                             height={812}
@@ -143,7 +142,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                         </Link>
                       </div>
                       <div className="modal_post_grid">
-                        <Link href="/blog-single">
+                        <Link href="#">
                           <img
                             width={852}
                             height={812}
@@ -154,7 +153,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                         </Link>
                       </div>
                       <div className="modal_post_grid">
-                        <Link href="/blog-single">
+                        <Link href="#">
                           <img
                             width={852}
                             height={812}
@@ -165,7 +164,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                         </Link>
                       </div>
                       <div className="modal_post_grid">
-                        <Link href="/blog-single">
+                        <Link href="#">
                           <img
                             width={852}
                             height={812}
@@ -178,7 +177,8 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                     </div>
                   </div>
                   <div className="copright">
-                    © {new Date().getFullYear()} Creote. All Rights Reserved.
+                    © {new Date().getFullYear()} Infinity Captial. All Rights
+                    Reserved.
                   </div>
                 </div>
               </div>

@@ -78,7 +78,8 @@ export default function Contact1() {
                   <div className="title_all_box style_one light_color">
                     <div className="title_sections left">
                       <h2>
-                        Creote has extensive experience across all industries.{' '}
+                        Infinity Captial has extensive experience across all
+                        industries.{' '}
                       </h2>
                       <p>
                         Over 20 years of experience we’ll ensure you always get
@@ -160,7 +161,7 @@ export default function Contact1() {
                           </div>
                           <div className="text ">
                             <h3>Skype Meet</h3>
-                            <p>creotesuppot@gmail.com</p>
+                            <p>infinitycaptial@gmail.com</p>
                           </div>
                         </div>
                       </div>

@@ -95,14 +95,7 @@ export default function About1() {
               {/*===============spacing==============*/}
               <div className="pd_bottom_30" />
               {/*===============spacing==============*/}
-              <div className="extra_content download_docs dark_color">
-                <div className="download_box_content">
-                  <Link href="#" download>
-                    Download our investment thesis{' '}
-                    <i className="icon-download-symbol" />
-                  </Link>
-                </div>
-              </div>
+
               {/*===============spacing==============*/}
               <div className="pd_bottom_30" />
               {/*===============spacing==============*/}

@@ -75,9 +75,9 @@ export default function Footer1({}) {
                         </div>
                         <div className="con_content">
                           <h5> Mail Us :</h5>
-                          <Link href="/tel:sendmail@creote.com">
+                          <Link href="/tel:sendmail@infinitycaptial.com">
                             {' '}
-                            sendmail@creote.com
+                            sendmail@infinitycaptial.com
                           </Link>
                         </div>
                       </div>

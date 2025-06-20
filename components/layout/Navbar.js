@@ -26,11 +26,11 @@ export default function Navbar() {
           </Link>
         </li>
 
-        <li className="menu-item menu-item-has-children dropdown nav-item">
-          <Link href="/service-default" className="dropdown-toggle nav-link">
+        <li className="menu-item  nav-item">
+          <Link href="/service-default" className=" nav-link">
             <span>Services</span>
           </Link>
-          <ul className="dropdown-menu">
+          {/*   <ul className="dropdown-menu">
             <li className="menu-item nav-item">
               <Link
                 href="/service-default"
@@ -51,10 +51,10 @@ export default function Navbar() {
                 <span>Service Details</span>
               </Link>
             </li>
-          </ul>
-          <div className="dropdown-btn">
+          </ul> */}
+          {/*   <div className="dropdown-btn">
             <span className="fa fa-angle-down"></span>
-          </div>
+          </div> */}
         </li>
 
         <li className="menu-item nav-item">

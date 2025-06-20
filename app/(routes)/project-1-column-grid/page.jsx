@@ -9,10 +9,10 @@ const PortfolioFilter1Col = dynamic(
   }
 );
 
-export default function Project1Grid() {
+export default function Sectors() {
   return (
     <>
-      <Layout breadcrumbTitle="1 Column Grid">
+      <Layout breadcrumbTitle="Investment Sectors">
         <div>
           <section className="project_all filt_style_two filter_enabled">
             {/*===============spacing==============*/}
@@ -34,9 +34,10 @@ export default function Project1Grid() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                   <div className="content">
-                    <h2>Join Our Mailing List</h2>
+                    <h2>Join Our Investment Newsletter</h2>
                     <p>
-                      For receiving our news and updates in your inbox directly.{' '}
+                      For receiving sector insights and investment opportunities
+                      directly in your inbox.{' '}
                     </p>
                   </div>
                 </div>
@@ -55,7 +56,7 @@ export default function Project1Grid() {
                             placeholder="Your email address"
                             required
                           />
-                          <input type="submit" defaultValue="Sign up" />
+                          <input type="submit" defaultValue="Subscribe" />
                         </div>
                       </form>
                     </div>
