@@ -24,7 +24,7 @@ import Header9 from './header/Header9';
 import MobileMenu from './MobileMenu';
 import ModalPopup from './ModalPopup';
 import SearchPopup from './SearchPopup';
-import SidebarCart from './SidebarCart';
+// import SidebarCart from './SidebarCart';
 import Footer16 from './footer/Footer16';
 import Footer15 from './footer/Footer15';
 import Footer14 from './footer/Footer14';
@@ -253,7 +253,7 @@ export default function Layout({
           isContactPopup={isContactPopup}
           handleContactPopup={handleContactPopup}
         />
-        <SidebarCart handleCart={handleCart} />
+        {/* <SidebarCart handleCart={handleCart} /> */}
       </div>
       <BackToTop />
     </>

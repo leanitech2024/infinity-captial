@@ -24,9 +24,6 @@ export default function FloatingMenu({ handleFloating, isFloating }) {
           <li className="floating_menu_text ">
             <Link href="#projects"> Projects </Link>
           </li>
-          <li className="floating_menu_text">
-            <Link href="#blog"> Blog </Link>
-          </li>
         </ul>
       </div>
     </>

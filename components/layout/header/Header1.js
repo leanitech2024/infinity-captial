@@ -101,17 +101,8 @@ export default function Header1({
                   </div>
                   <div className="header_right_content">
                     <ul>
-                      <li>
-                        <button
-                          type="button"
-                          className="search-toggler"
-                          onClick={handleSearch}
-                        >
-                          <i className="icon-search" />
-                        </button>
-                      </li>
                       <li className="header-button">
-                        <Link href="#" className="theme-btn one">
+                        <Link href="/contact" className="theme-btn one">
                           {' '}
                           Get In Touch
                         </Link>

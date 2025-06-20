@@ -13,26 +13,25 @@ import Service1 from '@/components/sections/Service1';
 import Team1 from '@/components/sections/Team1';
 import Testimonial1 from '@/components/sections/Testimonial1';
 import { useState } from 'react';
-
+import Layout from '@/components/layout/Layout';
 export default function Home1() {
   const [isFloating, setFloating] = useState(false);
   const handleFloating = () => setFloating(!isFloating);
 
   return (
     <>
-      <Header1 />
-      <HeroSlider1 />
-      <About1 />
-      <Service1 />
-      <Expertise />
-      <Process1 />
-      <Team1 />
-      <Project1 />
-      <Testimonial1 />
-
-      <Newsteller1 />
-      <FloatingMenu handleFloating={handleFloating} isFloating={isFloating} />
-      <Footer1 />
+      <Layout>
+        <HeroSlider1 />
+        <About1 />
+        <Service1 />
+        <Expertise />
+        <Process1 />
+        <Team1 />
+        <Project1 />
+        <Testimonial1 />
+        <Newsteller1 />
+        <FloatingMenu handleFloating={handleFloating} isFloating={isFloating} />
+      </Layout>
     </>
   );
 }

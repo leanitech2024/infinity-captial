@@ -3651,8 +3651,8 @@ body .enabled_custom_title .title_page .main_tit {
 .header .header_logo_box img,
 .default_sickty_heaad .header_logo_box img {
   display: block;
-  width: 128px;
-  height: 96px;
+  object-fit: contain;
+  height: 64px;
   margin-bottom: 0px;
 }
 .header .header_logo_box .logo_default,
