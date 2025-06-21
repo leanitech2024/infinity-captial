@@ -25,27 +25,48 @@ export default function HeroSlider1() {
     },
   };
 
+  const slides = [
+    {
+      titleParts: ['Strategic', 'Capital', 'Solutions'],
+      subtitle: 'Tailored Investment Strategies',
+      description:
+        'We deliver customized financial solutions to help businesses scale and investors achieve their long-term wealth objectives.',
+      alignment: 'content_left',
+      cta: 'Our Approach',
+    },
+    {
+      titleParts: ['Sector', 'Focused', 'Investment'],
+      subtitle: 'Deep Market Knowledge',
+      description:
+        'Leveraging our specialized knowledge in key industries to identify high-growth opportunities and maximize returns.',
+      alignment: 'content_center',
+      cta: 'Explore Sectors',
+    },
+    {
+      titleParts: ['Global', 'Investment', 'Platform'],
+      subtitle: 'Borderless Opportunities',
+      description:
+        'Access to international markets and diversified portfolios designed to optimize risk-adjusted returns across geographies.',
+      alignment: 'content_right',
+      cta: 'Global Reach',
+    },
+  ];
+
   return (
     <section className="slider style_four nav_position_one">
       <Swiper
         {...swiperOptions}
         className="owl_nav_block owl_dots_none theme_carousel"
       >
-        {[1, 2, 3].map((slide) => (
-          <SwiperSlide key={slide} className="slide-item-content">
-            <div
-              className={`slide-item ${
-                slide === 1
-                  ? 'content_left'
-                  : slide === 2
-                  ? 'content_center'
-                  : 'content_right'
-              }`}
-            >
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index} className="slide-item-content">
+            <div className={`slide-item ${slide.alignment}`}>
               <div
                 className="image-layer"
                 style={{
-                  backgroundImage: `url(/assets/images/sliders/slider-1-${slide}.jpg)`,
+                  backgroundImage: `url(/assets/images/sliders/slider-1-${
+                    index + 1
+                  }.jpg)`,
                 }}
               ></div>
               <div className="auto-container">
@@ -53,43 +74,19 @@ export default function HeroSlider1() {
                   <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div className="slider_content pd_top_180 pd_bottom_200">
                       <h6 className="animate_up d-inline-block">
-                        {slide === 1
-                          ? 'Strategic Investments'
-                          : slide === 2
-                          ? 'Innovative Growth'
-                          : 'Trusted Partnerships'}
+                        {slide.subtitle}
                       </h6>
                       <h1 className="animate_left">
-                        {slide === 1 ? (
-                          <>
-                            Empowering
-                            <br />
-                            Businesses
-                          </>
-                        ) : slide === 2 ? (
-                          <>
-                            Fueling
-                            <br />
-                            Startups
-                          </>
-                        ) : (
-                          <>
-                            Building
-                            <br />
-                            Wealth
-                          </>
-                        )}
+                        {slide.titleParts[0]} {slide.titleParts[1]}
+                        <br />
+                        {slide.titleParts[2]}
                       </h1>
                       <p className="description animate_right">
-                        {slide === 1
-                          ? 'We provide growth capital and strategic support to businesses, helping them scale and achieve long-term success.'
-                          : slide === 2
-                          ? 'Partnering with visionary entrepreneurs to transform ideas into market-leading companies with sustainable impact.'
-                          : 'Delivering tailored investment solutions to help clients build and preserve wealth across generations.'}
+                        {slide.description}
                       </p>
                       <div className="button_all animate_down">
                         <Link href="#" className="theme-btn one animated">
-                          Learn More
+                          {slide.cta}
                         </Link>
                       </div>
                     </div>
