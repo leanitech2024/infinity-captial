@@ -27,7 +27,7 @@ export default function Navbar() {
         </li>
 
         <li className="menu-item  nav-item">
-          <Link href="/service-default" className=" nav-link">
+          <Link href="/services" className=" nav-link">
             <span>Services</span>
           </Link>
           {/*   <ul className="dropdown-menu">
@@ -59,7 +59,7 @@ export default function Navbar() {
 
         <li className="menu-item nav-item">
           <Link
-            href="/project-1-column-grid"
+            href="/sectors"
             className={`nav-link ${
               pathname === '/project-1-column-grid' ? 'active' : ''
             }`}

@@ -20,15 +20,17 @@ export default function Header1({
                       <i className="icon-placeholder" />
                       <div className="text">
                         <small>Location</small>
-                        <span>61W Business Str Hobert, LA </span>
+                        <span>
+                          Innov8 Hotel Pride Plaza Aerocity, New delhi-110037{' '}
+                        </span>
                       </div>
                     </div>
                     <div className="contntent email">
                       <i className="icon-email" />
                       <div className="text">
                         <small>Email</small>
-                        <Link href="mailto:sendmail@infinitycaptial.com">
-                          sendmail@infinitycaptial.com
+                        <Link href="mailto:Info@infinitycapitol.com">
+                          Info@infinitycapitol.com
                         </Link>
                       </div>
                     </div>
@@ -38,10 +40,12 @@ export default function Header1({
                       <i className="icon-phone-call" />
                       <div className="text">
                         <small>Phone</small>
-                        <Link href="tel:+9806071234">+9806071234</Link>
+                        <Link href="tel:+9810844046">
+                          +9810844046 / +9560340000
+                        </Link>
                       </div>
                     </div>
-                    <div className="contntent media">
+                    {/*        <div className="contntent media">
                       <i className="icon-share" />
                       <div className="text">
                         <small>Share</small>
@@ -58,7 +62,7 @@ export default function Header1({
                           <small>Te</small>
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

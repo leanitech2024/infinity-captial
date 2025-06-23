@@ -64,20 +64,24 @@ export default function Footer1({}) {
                       <div className="top">
                         <h6> Location</h6>
                         <p>
-                          280 Granite Run Drive Suite #200 Lancaster, PA 1760
+                          Innov8 Hotel Pride Plaza Aerocity, New Delhi-110037
                         </p>
                       </div>
                       <div className="bottom">
                         <h6> Contact</h6>
                         <div className="con_content">
                           <h5> Phone :</h5>
-                          <Link href="/tel:+9806071234"> +98 060 712 34</Link>
+                          <Link href="/tel:+919810844046"> +919810844046</Link>
+                        </div>
+                        <div className="con_content">
+                          <h5> Phone :</h5>
+                          <Link href="/tel:+9560340000"> +9560340000</Link>
                         </div>
                         <div className="con_content">
                           <h5> Mail Us :</h5>
-                          <Link href="/tel:sendmail@infinitycaptial.com">
+                          <Link href="/tel:Info@infinitycapitol.com">
                             {' '}
-                            sendmail@infinitycaptial.com
+                            Info@infinitycapitol.com
                           </Link>
                         </div>
                       </div>

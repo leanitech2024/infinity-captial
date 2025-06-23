@@ -120,7 +120,7 @@ export default function Contact() {
                       <div className="contnet">
                         <h3> Post Address </h3>
                         <p>
-                          280 Granite Run Drive Suite #200 Lancaster, PA 1760
+                          Innov8 Hotel Pride Plaza Aerocity, New Delhi-110037
                         </p>
                       </div>
                     </div>
@@ -135,9 +135,8 @@ export default function Contact() {
                       </div>
                       <div className="contnet">
                         <h3> General Enquires </h3>
-                        <p>
-                          Phone: +98 060 712 34 &amp; Email: sendmail@qetus.com
-                        </p>
+                        <p>Email: Info@infinitycapitol.com</p>
+                        <p>Phone: +91 9810844046 &amp; +91 9560340000</p>
                       </div>
                     </div>
                   </div>
