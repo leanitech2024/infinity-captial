@@ -1,5 +1,3 @@
-'use client';
-
 import Preloader from '@/components/elements/Preloader';
 
 export default function Loading() {

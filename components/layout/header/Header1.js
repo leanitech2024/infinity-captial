@@ -15,7 +15,7 @@ export default function Header1({
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="top_inner">
-                  <div className="left_side common_css">
+                  <div className="left_side common_css text-left text-sm-left">
                     <div className="contntent address">
                       <i className="icon-placeholder" />
                       <div className="text">
@@ -35,7 +35,7 @@ export default function Header1({
                       </div>
                     </div>
                   </div>
-                  <div className="right_side common_css">
+                  <div className="right_side common_css text-left text-sm-left">
                     <div className="contntent phone">
                       <i className="icon-phone-call" />
                       <div className="text">
@@ -76,12 +76,12 @@ export default function Header1({
                 <div className="header_logo_box">
                   <Link href="/" className="logo navbar-brand">
                     <img
-                      src="/assets/images/logo-default.jpg"
+                      src="/assets/images/logo-default.png"
                       alt="Creote Elementor"
                       className="logo_default"
                     />
                     <img
-                      src="/assets/images/logo-default.jpg"
+                      src="/assets/images/logo-default.png"
                       alt="Creote Elementor"
                       className="logo__sticky"
                     />

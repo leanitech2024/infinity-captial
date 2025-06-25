@@ -101,7 +101,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                 <div className="abt_content">
                   <div className="logo">
                     <img
-                      src="/assets/images/logo-default.jpg"
+                      src="/assets/images/logo-default.png"
                       alt="img"
                       className="company_logo_modal"
                     />

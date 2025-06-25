@@ -1,4 +1,5 @@
 import Layout from '@/components/layout/Layout';
+import Newsteller1 from '@/components/sections/Newsteller1';
 import Link from 'next/link';
 
 export default function Contact() {
@@ -204,7 +205,7 @@ export default function Contact() {
                     {/*Map Outer*/}
                     <div className="map-outer">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan%20Rafael%2C%20California%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8391833528!2d77.06889933644449!3d28.52758200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d1f7be6a29b%3A0xb72df7d6a70e8df5!2sInnov8%20Coworking%20%7C%20Pride%20Plaza%20Hotel%2C%20Aerocity%2C%20Delhi!5e0!3m2!1sen!2sin!4v1719300388654!5m2!1sen!2sin"
                         height={570}
                         style={{ border: 0 }}
                         allowFullScreen
@@ -221,47 +222,7 @@ export default function Contact() {
             {/*===============spacing==============*/}
           </section>
           {/*-newsteller-*/}
-          <section className="newsteller style_one bg_dark_1">
-            {/*===============spacing==============*/}
-            <div className="pd_top_40" />
-            {/*===============spacing==============*/}
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12">
-                  <div className="content">
-                    <h2>Join Our Mailing List</h2>
-                    <p>
-                      For receiving our news and updates in your inbox directly.{' '}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <div className="item_scubscribe">
-                    <div className="input_group">
-                      <form
-                        className="mc4wp-form"
-                        method="post"
-                        data-name="Subscibe"
-                      >
-                        <div className="mc4wp-form-fields">
-                          <input
-                            type="email"
-                            name="EMAIL"
-                            placeholder="Your email address"
-                            required
-                          />
-                          <input type="submit" defaultValue="Sign up" />
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*===============spacing==============*/}
-            <div className="pd_bottom_40" />
-            {/*===============spacing==============*/}
-          </section>
+          <Newsteller1 />
         </div>
       </Layout>
     </>

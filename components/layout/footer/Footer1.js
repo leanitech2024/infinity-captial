@@ -16,7 +16,7 @@ export default function Footer1({}) {
                     <div className="footer_logo">
                       <Link href="#">
                         <img
-                          src="/assets/images/logo-default.jpg"
+                          src="/assets/images/logo-default.png"
                           className="img-fluid"
                           alt="logo"
                         />
@@ -103,22 +103,22 @@ export default function Footer1({}) {
                     <div className="navigation_foo_inner">
                       <ul className="menu">
                         <li>
-                          <Link href="#">Home</Link>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
-                          <Link href="#">About Us</Link>
+                          <Link href="/about-us">About Us</Link>
                         </li>
                         <li>
-                          <Link href="#">Contact</Link>
+                          <Link href="/services">Services</Link>
                         </li>
                         <li>
-                          <Link href="#">Professionals</Link>
+                          <Link href="/sectors">Sectors</Link>
                         </li>
                         <li>
-                          <Link href="#">Insights</Link>
+                          <Link href="/about-us">Insights</Link>
                         </li>
                         <li>
-                          <Link href="#">HR Solutions</Link>
+                          <Link href="/services">Our Solutions</Link>
                         </li>
                       </ul>
                     </div>
@@ -140,22 +140,22 @@ export default function Footer1({}) {
                       <div className="navigation_foo_inner">
                         <ul className="menu">
                           <li>
-                            <Link href="#">How it’s Work</Link>
+                            <Link href="/about-us">How it’s Work</Link>
                           </li>
                           <li>
-                            <Link href="#">Partners</Link>
+                            <Link href="/about-us">Partners</Link>
                           </li>
                           <li>
-                            <Link href="#">Testimonials</Link>
+                            <Link href="/about-us">Testimonials</Link>
                           </li>
                           <li>
-                            <Link href="#">Key Areas</Link>
+                            <Link href="/sectors">Key Areas</Link>
                           </li>
                           <li>
-                            <Link href="#">Case Studies</Link>
+                            <Link href="/sectors">Case Studies</Link>
                           </li>
                           <li>
-                            <Link href="#">Pricing</Link>
+                            <Link href="/contact">Pricing</Link>
                           </li>
                         </ul>
                       </div>
@@ -177,22 +177,22 @@ export default function Footer1({}) {
                     <div className="navigation_foo_inner">
                       <ul className="menu">
                         <li>
-                          <Link href="#">Careers</Link>
+                          <Link href="/services">Careers</Link>
                         </li>
                         <li>
-                          <Link href="#">Infrastructure</Link>
+                          <Link href="/services">Infrastructure</Link>
                         </li>
                         <li>
-                          <Link href="#">Client Support</Link>
+                          <Link href="/services">Client Support</Link>
                         </li>
                         <li>
-                          <Link href="#">Privacy Policy</Link>
+                          <Link href="/services">Privacy Policy</Link>
                         </li>
                         <li>
-                          <Link href="#">Terms of Use</Link>
+                          <Link href="/services">Terms of Use</Link>
                         </li>
                         <li>
-                          <Link href="#">Sitemap</Link>
+                          <Link href="/services">Sitemap</Link>
                         </li>
                       </ul>
                     </div>
@@ -214,8 +214,8 @@ export default function Footer1({}) {
                 {/*===============spacing==============*/}
                 <div className="footer_copy_content color_white">
                   © {new Date().getFullYear()}{' '}
-                  <Link href="https://themeforest.net/user/steelthemes">
-                    Infinity Captial.
+                  <Link target="_blank" href="https://infinitycapitol.com">
+                    Infinity Captiol.
                   </Link>{' '}
                   All Rights Reserved.
                 </div>

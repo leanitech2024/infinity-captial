@@ -2,6 +2,7 @@
 import Layout from '@/components/layout/Layout';
 import { useState } from 'react';
 import Link from 'next/link';
+import Newsteller1 from '@/components/sections/Newsteller1';
 
 export default function ServiceDetails() {
   const [isActive, setIsActive] = useState({
@@ -391,48 +392,7 @@ export default function ServiceDetails() {
             </div>
           </div>
           {/*-newsteller-*/}
-          <section className="newsteller style_one bg_dark_1">
-            {/*===============spacing==============*/}
-            <div className="pd_top_40" />
-            {/*===============spacing==============*/}
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12">
-                  <div className="content">
-                    <h2>Join Our Investment Newsletter</h2>
-                    <p>
-                      For receiving market updates and investment insights
-                      directly in your inbox.{' '}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <div className="item_scubscribe">
-                    <div className="input_group">
-                      <form
-                        className="mc4wp-form"
-                        method="post"
-                        data-name="Subscibe"
-                      >
-                        <div className="mc4wp-form-fields">
-                          <input
-                            type="email"
-                            name="EMAIL"
-                            placeholder="Your email address"
-                            required
-                          />
-                          <input type="submit" defaultValue="Subscribe" />
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*===============spacing==============*/}
-            <div className="pd_bottom_40" />
-            {/*===============spacing==============*/}
-          </section>
+          <Newsteller1 />
         </div>
       </Layout>
     </>

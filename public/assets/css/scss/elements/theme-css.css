@@ -34814,5 +34814,15 @@ body.side_menu_toggled .style-switcher {
 iframe {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .top_inner .left_side,
+  .top_inner .right_side {
+    text-align: left !important;
+    justify-content: flex-start !important;
+  }
 
+  .top_inner .contntent {
+    text-align: left !important;
+  }
+}
 /*# sourceMappingURL=theme-css.css.map */

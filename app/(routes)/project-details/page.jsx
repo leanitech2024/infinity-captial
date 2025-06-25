@@ -1,4 +1,5 @@
 import Layout from '@/components/layout/Layout';
+import Newsteller1 from '@/components/sections/Newsteller1';
 import Link from 'next/link';
 
 export default function ProjectDetails() {
@@ -157,44 +158,7 @@ export default function ProjectDetails() {
             <div className="pd_bottom_70" />
           </section>
 
-          <section className="newsteller style_one bg_dark_1">
-            <div className="pd_top_40" />
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12">
-                  <div className="content">
-                    <h2>Infinity Capital Insights</h2>
-                    <p>
-                      Subscribe to receive our latest investment research,
-                      sector reports, and portfolio updates.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12">
-                  <div className="item_scubscribe">
-                    <div className="input_group">
-                      <form
-                        className="mc4wp-form"
-                        method="post"
-                        data-name="Subscribe"
-                      >
-                        <div className="mc4wp-form-fields">
-                          <input
-                            type="email"
-                            name="EMAIL"
-                            placeholder="Your professional email"
-                            required
-                          />
-                          <input type="submit" defaultValue="Subscribe" />
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="pd_bottom_40" />
-          </section>
+          <Newsteller1 />
         </div>
       </Layout>
     </>
