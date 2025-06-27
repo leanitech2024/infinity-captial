@@ -88,7 +88,7 @@ export default function AboutUs() {
                           </div>
                           <div className="txt_content">
                             <h3>
-                              <Link href="#">
+                              <Link href="/services">
                                 Global Portfolio Diversification
                               </Link>
                             </h3>
@@ -101,7 +101,7 @@ export default function AboutUs() {
                     </div>
                   </div>
                   <div className="theme_btn_all color_one">
-                    <Link href="#" className="theme-btn five">
+                    <Link href="/contact" className="theme-btn five">
                       Partner with us
                       <i className="icon-right-arrow" />
                     </Link>

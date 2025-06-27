@@ -40,9 +40,9 @@ export default function MobileMenu({ handleMobileMenu }) {
 
               <li className="menu-item nav-item">
                 <Link
-                  href="/service-default"
+                  href="/services"
                   className={`nav-link ${
-                    pathname === '/service-default' ? 'active' : ''
+                    pathname === '/services' ? 'active' : ''
                   }`}
                   onClick={handleMobileMenu}
                 >
@@ -52,9 +52,9 @@ export default function MobileMenu({ handleMobileMenu }) {
 
               <li className="menu-item nav-item">
                 <Link
-                  href="/project-1-column-grid"
+                  href="/sectors"
                   className={`nav-link ${
-                    pathname === '/project-1-column-grid' ? 'active' : ''
+                    pathname === '/sectors' ? 'active' : ''
                   }`}
                   onClick={handleMobileMenu}
                 >

@@ -86,7 +86,7 @@ const ServiceCard = ({ service }) => (
 
 export default function Service() {
   return (
-    <Layout breadcrumbTitle="Service Default">
+    <Layout breadcrumbTitle="Our Services">
       <div>
         {/*===============spacing==============*/}
         <div className="pd_top_90" />

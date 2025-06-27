@@ -9218,6 +9218,44 @@ header .flaticon-list {
   .theme-btn.one {
   opacity: 1;
 }
+
+/* New Slider optimzer css start */
+
+.slider.style_one .slide-item-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider.style_one .slide-item-content > img {
+  z-index: 1;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background: var(--primary-color-two); */
+  opacity: 0.8;
+  z-index: 2;
+}
+
+.slider.style_one .slide-item-content .slider_content {
+  position: relative;
+  z-index: 3;
+  padding: 350px 0px 200px;
+}
+
+.slider.style_one .owl-nav {
+  position: relative;
+  z-index: 4;
+}
+
+.slider .slide-item {
+  position: relative;
+}
+/* New Slider optimzer css end */
 .slider.style_two {
   min-height: 740px;
 }
@@ -34825,4 +34863,8 @@ iframe {
     text-align: left !important;
   }
 }
+.active {
+  color: #078586;
+}
+
 /*# sourceMappingURL=theme-css.css.map */

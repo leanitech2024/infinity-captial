@@ -1,12 +1,10 @@
 'use client';
+
 import Link from 'next/link';
+import Image from 'next/image'; // Import next/image
 import Navbar from '../Navbar';
 
-export default function Header1({
-  handleSearch,
-  handleContactPopup,
-  handleMobileMenu,
-}) {
+export default function Header1({ handleContactPopup, handleMobileMenu }) {
   return (
     <>
       <div className="header_area" id="header_contents">
@@ -21,7 +19,7 @@ export default function Header1({
                       <div className="text">
                         <small>Location</small>
                         <span>
-                          Innov8 Hotel Pride Plaza Aerocity, New delhi-110037{' '}
+                          Innov8 Hotel Pride Plaza Aerocity, New delhi-110037
                         </span>
                       </div>
                     </div>
@@ -45,24 +43,6 @@ export default function Header1({
                         </Link>
                       </div>
                     </div>
-                    {/*        <div className="contntent media">
-                      <i className="icon-share" />
-                      <div className="text">
-                        <small>Share</small>
-                        <Link href="#">
-                          <small>Fb</small>
-                        </Link>
-                        <Link href="#">
-                          <small>Tw</small>
-                        </Link>
-                        <Link href="#">
-                          <small>Sk</small>
-                        </Link>
-                        <Link href="#">
-                          <small>Te</small>
-                        </Link>
-                      </div>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -75,15 +55,22 @@ export default function Header1({
               <div className="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                 <div className="header_logo_box">
                   <Link href="/" className="logo navbar-brand">
-                    <img
+                    {/* Use next/image for optimized images */}
+                    <Image
                       src="/assets/images/logo-default.png"
-                      alt="Creote Elementor"
+                      alt="Infinity Capitol Logo"
+                      width={150} // Specify intrinsic width
+                      height={40} // Specify intrinsic height
                       className="logo_default"
+                      priority // For logos in header, usually high priority
                     />
-                    <img
+                    <Image
                       src="/assets/images/logo-default.png"
-                      alt="Creote Elementor"
+                      alt="Infinity Capitol Logo"
+                      width={150}
+                      height={40}
                       className="logo__sticky"
+                      priority
                     />
                   </Link>
                 </div>
@@ -107,7 +94,6 @@ export default function Header1({
                     <ul>
                       <li className="header-button">
                         <Link href="/contact" className="theme-btn one">
-                          {' '}
                           Get In Touch
                         </Link>
                       </li>
